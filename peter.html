@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fatolu Peter Oluwadamilare | Data Analyst & Tech Entrepreneur</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+  <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header / Navbar -->
+  <header class="bg-white shadow-md fixed w-full z-10">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-indigo-600">Fatolu Peter</a>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-indigo-500">About</a>
+        <a href="#services" class="hover:text-indigo-500">Services</a>
+        <a href="#projects" class="hover:text-indigo-500">Projects</a>
+        <a href="#contact" class="hover:text-indigo-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-24 bg-white">
+    <div class="container mx-auto px-6 py-20 flex flex-col-reverse lg:flex-row items-center">
+      <div class="w-full lg:w-1/2 mt-10 lg:mt-0">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">I'm Fatolu Peter Oluwadamilare</h1>
+        <p class="text-lg text-gray-700 mb-6">Data Analyst | Python Programmer | Content Creator | Graphic Designer | App Developer | Author</p>
+        <a href="#contact" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700">Get in Touch</a>
+      </div>
+      <div class="w-full lg:w-1/2 flex flex-col items-center">
+        <img id="avatar" src="assets/avatar.jpg" alt="Fatolu Peter Avatar" class="w-64 h-64 rounded-full object-cover shadow-lg mb-4">
+        <input id="imgUpload" type="file" accept="image/*" class="text-sm text-gray-600" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-gray-50 py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-gray-900 mb-6">About Me</h2>
+      <p class="text-gray-700 leading-relaxed">I'm dedicated to using data and design to solve real-world problems. With expertise in Python, data visualization, and software development, I create tools and insights that empower businesses and individuals to make informed decisions.</p>
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="font-bold text-lg">Location</h3>
+          <p>Lagos, Nigeria</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg">Contact</h3>
+          <p>Email: oblissman@gmail.com</p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/fatolu-peter" class="text-indigo-600 hover:underline">/in/fatolu-peter-a31077306</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="bg-white py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-gray-900 mb-10 text-center">Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold mb-2">Data Analytics Consulting</h3>
+          <p class="text-gray-700">Customized analytics strategies and dashboards to drive business growth.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold mb-2">Software & App Development</h3>
+          <p class="text-gray-700">Building user-friendly tools in Python, Kivy, and Streamlit to simplify workflows.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold mb-2">Training & Workshops</h3>
+          <p class="text-gray-700">Hands-on courses in Python, SQL, Tableau, and Power BI for teams and individuals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-50 py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-gray-900 mb-10 text-center">Featured Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl overflow-hidden shadow hover:shadow-lg transition">
+          <img src="assets/telco.jpg" alt="Telco Churn Analysis" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Telco Churn Analysis</h3>
+            <p class="text-gray-700 mb-4">Predicting customer churn using Python and machine learning.</p>
+            <a href="#" class="text-indigo-600 hover:underline">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-white py-20">
+    <div class="container mx-auto px-6 max-w-lg">
+      <h2 class="text-3xl font-semibold text-gray-900 mb-6 text-center">Get In Touch</h2>
+      <form action="#" class="space-y-4">
+        <div>
+          <label class="block text-gray-700">Name</label>
+          <input type="text" class="w-full mt-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" />
+        </div>
+        <div>
+          <label class="block text-gray-700">Email</label>
+          <input type="email" class="w-full mt-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" />
+        </div>
+        <div>
+          <label class="block text-gray-700">Message</label>
+          <textarea class="w-full mt-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" rows="5"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2025 Fatolu Peter Oluwadamilare. All rights reserved.</p>
+      <div class="mt-4 space-x-4">
+        <a href="https://github.com/Fatolu-peter" target="_blank" class="hover:text-indigo-400">GitHub</a>
+        <a href="https://www.linkedin.com/in/fatolu-peter" target="_blank" class="hover:text-indigo-400">LinkedIn</a>
+        <a href="https://youtube.com/Fatolu-peter" target="_blank" class="hover:text-indigo-400">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS to Preview Uploaded Avatar -->
+  <script>
+    const imgInput = document.getElementById('imgUpload');
+    const avatar = document.getElementById('avatar');
+    imgInput.addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = e => { avatar.src = e.target.result; };
+        reader.readAsDataURL(file);
+      }
+    });
+  </script>
+</body>
+</html>
